@@ -1,0 +1,19 @@
+{
+  "name": "tg-to-wa",
+  "version": "1.0.0",
+  "description": "Auto-forward Telegram channel posts to a WhatsApp group",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "telegraf": "^4.16.3",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
